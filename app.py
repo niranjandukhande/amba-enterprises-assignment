@@ -70,3 +70,6 @@ VALUES (
 """
 
         st.code(sql_statement, language="sql")
+
+st.divider()
+st.caption("Amba ERP Dashboard | Built by Niranjan Dukhande")
