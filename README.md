@@ -1,8 +1,16 @@
-# Mini ERP System – Order & Payment Tracking
+# Amba ERP Dashboard – Order & Payment Tracking
 
 A lightweight internal ERP prototype built to replace Excel-based customer order tracking with a structured, database-driven system.
 
 This project focuses on clean relational modeling, transaction safety, and financial correctness — while keeping the system simple and maintainable.
+
+---
+
+## Live Demo
+
+Deployed on Streamlit Cloud:
+
+👉 https://amba-enterprises-assignment.streamlit.app/
 
 ---
 
@@ -21,7 +29,7 @@ While simple, this approach creates problems:
 - Difficult multi-user handling  
 - No automation capability  
 
-This project converts that spreadsheet workflow into a structured ERP-style system backed by PostgreSQL.
+This project converts that spreadsheet workflow into a structured ERP-style system structured using relational database design principles.
 
 ---
 
