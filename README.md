@@ -66,4 +66,48 @@ This ensures:
 - No orders without customers  
 - No payments without orders  
 - Clean outstanding balance calculation  
-- Strong referential integrity
+- Strong referential integrity  
+
+---
+
+## Application Screenshots
+
+### Create New Order
+
+![Create Order](assets/create-order.png)
+
+
+---
+
+## Setup Instructions
+
+Follow these steps to run the project locally.
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+```
+
+### 2. Create and Activate Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+```bash
+streamlit run app.py
+```
+```markdown
+The application will open at:
+http://localhost:8501
+```
